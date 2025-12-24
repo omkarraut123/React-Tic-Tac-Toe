@@ -56,8 +56,8 @@ function App() {
   return (
     <div id='game-container'>
             <ol id='players' className="highlight-player">
-                 <Player name='omkar' symbol='X' isActive={ActivePlayer === 'X'}/>
-                 <Player name='Nilesh' symbol='O' isActive={ActivePlayer === 'O'}/>
+                 <Player name='Player 1' symbol='X' isActive={ActivePlayer === 'X'}/>
+                 <Player name='Player 2' symbol='O' isActive={ActivePlayer === 'O'}/>
             </ol>
             {
               (winner || hasDraw) && <GameOver winner={winner} handleRestart = {handleRestart}/>
