@@ -79,7 +79,7 @@ h1 {
   animation: pulse 2s infinite ease-in-out;
 }
 
-#players.highlight-player li.active .player-name,
+#players.  li.active .player-name,
 #players.highlight-player li.active .player-symbol {
   color: #f6e35a;
 }
@@ -241,7 +241,7 @@ ol {
 
 #log {
   max-width: 20rem;
-  color: #3f3b00;
+  color: #dacc08;
   list-style: none;
   margin: 2rem auto;
   padding: 0;
